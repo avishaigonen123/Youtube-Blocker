@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Timer</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <div class="grid-container">
+        <div class="neon-arrow-container neon-arrow-left">
+            <img src="images/transpaernt-arrow.png"  alt="Arrow" class="arrow-img">
+        </div>
+        <div class="container">
+            <h1>YouTube Timer</h1>
+            <div class="button-container">
+                <button id="noYouTubeButton" class="glow">Do not enter YouTube</button>
+            </div>
+            <div class="time-container">
+                <label for="hourSlider">Select Hours:</label>
+                <input type="range" id="hourSlider" min="0" max="24" step="1" value="0">
+                <span id="hourValue">0 hours</span>
+            </div>
+            <div class="time-container">
+                <label for="minuteSlider">Select Minutes:</label>
+                <input type="range" id="minuteSlider" min="0" max="60" step="1" value="15">
+                <span id="minuteValue">15 minutes</span>
+            </div>
+            <div class="custom-time-container">
+                <label for="customTime">Or enter custom time (minutes):</label>
+                <input type="number" id="customTime" min="0" max="1440" step="1">
+            </div>
+            <div class="button-container">
+                 <button id="setTimeButton">Set Time</button>
+            </div>
+        </div>
+        <div class="neon-arrow-container neon-arrow-right">
+            <img src="images/transpaernt-arrow.png" alt="Arrow" class="arrow-img">
+        </div>
+    </div>
+    <script src="scripts/redirect.js"></script>
+</body>
+</html>
