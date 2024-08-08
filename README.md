@@ -10,7 +10,7 @@ This Chrome extension helps you manage your time on YouTube by displaying a popu
 
 ## Demo
 
-![Demo Image](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGSjDFd02SnJzzszonBanztqeEiXQc8QYb0A&s)
+![image](https://github.com/user-attachments/assets/f8a26bff-51d5-4982-a3d7-4a9b6ac9a838)
 
 ## Installation
 
@@ -28,8 +28,6 @@ git clone https://github.com/yourusername/your-repository-name.git
 1. After installation, navigate to YouTube.
 2. A popup will appear with options to set your time limit or exit YouTube immediately.
 3. The extension will track your time on YouTube and enforce the time limit you've set.
-## Demo
-![image](https://github.com/user-attachments/assets/f8a26bff-51d5-4982-a3d7-4a9b6ac9a838)
 
 ## Contributing
 
