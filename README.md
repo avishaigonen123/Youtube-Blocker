@@ -16,7 +16,7 @@ This Chrome extension helps you manage your time on YouTube by displaying a popu
 
 1. Clone this repository:  
    ```bash
-   https://github.com/avishaigonen123/Youtube-Blocker.git
+   git clone https://github.com/avishaigonen123/Youtube-Blocker.git
 2. Open Chrome and navigate to `chrome://extensions/`.
 3. Enable "Developer mode" in the top right corner.
 4. Click "Load unpacked" and select the folder containing your cloned repository.
